@@ -22,7 +22,7 @@ class StudentsController < ApplicationController
   def update
     set_student!
     @student.update(student_params(:first_name, :last_name))
-    redirect_to student_path(@school_class)
+    redirect_to student_path(@student)
   end
 
   private
