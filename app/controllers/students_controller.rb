@@ -2,7 +2,7 @@
 class StudentsController < ApplicationController
 
   def show
-    set_school_class!
+    set_student!
   end
 
   def new
