@@ -13,6 +13,9 @@ class SchoolClassesController < ApplicationController
     set_school_class!
   end
 
+  def create
+  end
+
   private
 
   def set_school_class!
