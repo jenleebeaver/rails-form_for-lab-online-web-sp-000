@@ -1,2 +1,2 @@
 
-class SchoolVlassesController < ApplicationController
+class SchoolClassesController < ApplicationController
