@@ -21,7 +21,7 @@ class StudentsController < ApplicationController
 
   def update
     set_student!
-    @school_class.update(school_class_params)
+    @student.update(school_class_params)
     redirect_to school_class_path(@school_class)
   end
 
