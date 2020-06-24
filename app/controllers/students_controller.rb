@@ -10,7 +10,7 @@ class StudentsController < ApplicationController
   end
 
   def edit
-    set_school_class!
+    set_student!
   end
 
   def create
