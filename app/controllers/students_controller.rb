@@ -31,7 +31,7 @@ class StudentsController < ApplicationController
     @student = Student.find(params[:id])
   end
 
-  def student_params
+  def student_params(*args)
     params.require(:student).permit!
   end
 end
