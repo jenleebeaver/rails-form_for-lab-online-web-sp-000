@@ -19,6 +19,9 @@ class SchoolClassesController < ApplicationController
     redirect_to school_class_path(@school_class)
   end
 
+  def update
+  end
+
   private
 
   def set_school_class!
