@@ -10,5 +10,11 @@ class SchoolClassesController < ApplicationController
   end
 
   def edit
+    @school_class = SchoolClass.fin
+  end
+
+  private
+
+  def set_school_class!
   end
 end
