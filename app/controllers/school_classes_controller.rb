@@ -2,7 +2,7 @@
 class SchoolClassesController < ApplicationController
 
   def show
-    @school_class = SchoolClass.find(params[:id])
+    set_school_class!
   end
 
   def new
@@ -10,7 +10,7 @@ class SchoolClassesController < ApplicationController
   end
 
   def edit
-    @school_class = SchoolClass.fin
+    set_school_class!
   end
 
   private
