@@ -6,7 +6,7 @@ class StudentsController < ApplicationController
   end
 
   def new
-    @school_class = SchoolClass.new
+    @student = SchoolClass.new
   end
 
   def edit
