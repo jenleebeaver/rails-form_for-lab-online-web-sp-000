@@ -21,4 +21,7 @@ class SchoolClassesController < ApplicationController
   def set_school_class!
     @school_class = SchoolClass.find(params[:id])
   end
+
+  def school_class_params
+  end
 end
