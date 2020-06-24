@@ -20,7 +20,7 @@ class StudentsController < ApplicationController
   end
 
   def update
-    set_school_class!
+    set_student!
     @school_class.update(school_class_params)
     redirect_to school_class_path(@school_class)
   end
